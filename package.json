@@ -1,0 +1,38 @@
+{
+  "name": "analytics",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch ./app --exec npm run server",
+    "server": "./node_modules/.bin/babel-node index.js"
+  },
+  "author": "desktoping",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "co": "^4.6.0",
+    "handlebars": "^4.0.5",
+    "json-beautify": "^1.0.1",
+    "koa": "^1.2.0",
+    "koa-bodyparser": "^2.0.1",
+    "koa-handlebars": "^0.5.7",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "kue": "^0.10.5",
+    "lodash": "^4.7.0",
+    "require-all": "^2.0.0",
+    "rethinkdbdash": "^2.2.18"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desktoping/analytics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/desktoping/analytics/issues"
+  },
+  "homepage": "https://github.com/desktoping/analytics#readme"
+}
